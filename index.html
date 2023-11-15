@@ -1,0 +1,232 @@
+<!-- https://sushi-gilt.vercel.app/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets\sushi-9.png">
+  <!-- rel means what the file is? -->
+  <title>Sushi Resto</title>
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header" id="#">
+    <h2 class="header_heading">
+    <p data-aos="fade-down">SUSHIMAN</p>
+    </h2>
+    <nav class="header__nav header_nav_up" data-aos="fade-down" data-aos-offset="400">
+      <ul class="header_menu_lap">
+        <li class="header_li">
+          <a href="#trending">MENU</a>
+        </li>
+        <li class="header_li">
+          <a href="#FOOD">FOOD</a>
+        </li>
+        <li class="header_li">
+          <a href="#subscriber">SERVICES</a>
+        </li>
+        <li class="header_li">
+          <a href="#ABOUT_US">ABOUT US</a>
+        </li>
+        <li class="header_li" >
+          <img src="assets/search.svg" alt="search" />
+        </li>
+      </ul>       
+    </nav>
+  </header>
+
+  <section class="section" id="MENU_AREA">
+    <!-- main body -->
+
+    <div class="hero_section" >
+      <img src="assets/sushi-1.png" class="hero_section_image" alt="hero_im"  data-aos="fade-up" data-aos-offset="400">
+      <h2 class="hero_section_characters" data-aos="fade-up">
+        日 <br />
+        本 <br /> 
+        食
+      </h2>
+    </div>
+
+    <aside class="aside">
+
+      <div class="aside_info" data-aos="fade-left">
+      <h1 class="aside_info_first sushi__maintitle">Feel the taste of Japanese foods</h1>
+
+      <div class="sushi_subtitle aside_info_second">Feel the taste of the most popular Japanese food from anywhere and anytime</div>
+      <div class="aside_buttonarea">
+        <div class="order_now_button">Order Now</div>
+        <div class="aside_buttonhowsection">
+          <img src="assets/play-circle.svg">
+          <span class="aside_buttonhowto">How to Order</span>
+        </div>
+      </div>
+    </div> 
+    <div>
+      <div class="aside_testimonialarea" data-aos="fade-up">
+      <div class="aside_left_testimonial">
+        <h3 class="aside_left_testimonial_noofcustomer">24<span>k+</span></h3>
+        <span class="aside_left_testimonial_happyCusto">
+          <div>
+            Happy Customers
+          </div>
+        </span>
+      </div>
+
+  <div class="aside_right_testimonial">
+    <img src="assets/user.png">
+    <p>“This is the best Japanese food delivery service that ever existed.”</p>
+  </div>
+    </div>
+  </div>
+    </aside>
+  </section>
+  <section class="about-us" id="ABOUT_US">
+    <div class="about-us_leftside">
+
+      <div class="about-us_leftside_sushi-3card">
+        <img src="assets/sushi-3.png" data-aos="fade-right"> 
+      </div>
+
+      <div class="about-us_leftside_learn_more">
+        <p  class="about-us_leftside_learnpara">Learn  More</p>
+        <img src="assets/arrow-up-right.svg" class="about-us_leftside_arrowup">
+      </div>
+
+      <div class="about-us_leftside_sushi-4card">
+        <img src="assets/sushi-2.png" data-aos="fade-right">
+      </div>
+    </div>
+    <div class="about-us_rightside">
+      <div class="about-us_rightside_firstsect sushi_mainsstitle" data-aos="fade-left">
+        About Us / 私たちに関しては
+      </div>
+      <h3 class="about-us_rightside_secondsect sushi__maintitle" data-aos="fade-left">
+        Our mission is to bring true Japanese flavours to you.
+      </h3>
+      <div class="about-us_rightside_thirdsect sushi_subtitle" data-aos="fade-left">
+        We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with our shopping and dining for our customers.
+      </div>
+    </div>
+  </section>
+
+  <section class="popularfood" id="FOOD">
+    <h2 class="popularfood_title sushi__maintitle"  data-aos="flip-up">Popular Food / 人気</h2>
+     
+    <div class="popularfood_filters" data-aos="fade-up">
+      <div class="popularfood_filters_ALL active popularfood_filters_opt">All</div>
+      <div class="popularfood_filters_sushi popularfood_filters_opt">
+        <img src="./assets/sushi-9.png" class="popularfood_filterimage">
+        <span class="popularfood_filters_sub">Sushi</span>
+      </div>
+      <div class="popularfood_filters_Ramen popularfood_filters_opt">
+        <img src="./assets/sushi-8.png" class="popularfood_filterimage">
+        <span class="popularfood_filters_sub">Ramen</span>
+      </div>
+      <div class="popularfood_filters_udon popularfood_filters_opt">
+        <img src="./assets/sushi-7.png" class="popularfood_filterimage">
+        <span class="popularfood_filters_sub">Udon</span>
+      </div>
+      <div class="popularfood_filters_Danggo popularfood_filters_opt">
+        <img src="./assets/sushi-6.png" class="popularfood_filterimage">
+        <span class="popularfood_filters_sub">Danggo</span>
+      </div>
+      <div class="popularfood_filters_others popularfood_filters_opt">
+        <span class="popularfood_filters_sub">Others</span>
+      </div>
+    </div>
+    <i class="fa fa-angle-left"></i>
+    <div class="popularfood_catalogue" id="popularfood_catalogue"  desktop-limit="3" tablet-limit="2" mobile-limit="1"></div>
+    <i class="fa fa-angle-right"></i>
+    <div class="popularfood_explore" data-aos="flip-up">
+      <span>Explore Food</span>
+      <img src="./assets/arrow-right.svg">
+    </div>
+  </section>
+
+  <section class="trending" id="trending">
+    <div class="trending_upside">
+      <div class="trending_upside_leftside" data-aos="fade-right">
+        <div class="trending_upside_leftside_firstsect sushi_mainsstitle">
+          What’s Trending / トレンド
+        </div>
+        <h3 class="trending_upside_leftside_secondsect sushi__maintitle">
+
+          Japanese Sushi
+        </h3>
+        <div class="trending_upside_leftside_thirdsect sushi_subtitle">
+          Feel the taste of the most delicious Sushi here.
+        </div>
+        <div class="trending_upside_leftside_fourthsect"></div>
+      </div>
+      <div class="trending_upside_rightside">
+          <img src="./assets/arrow-vertical.svg" class="trending_upside_rightside_vertical" data-aos="fade-down"/>
+        <img src="./assets/sushi-5.png" class="trending_upside_rightside_image" data-aos="fade-left">
+          <img src="./assets/arrow-horizontal.svg" class="trending_upside_rightside_horizontal" data-aos="fade-left">
+      </div>
+    </div>
+    <div class="discover" data-aos="zoom-in">discover</div>
+    <div class="trending_downside">
+      <div class="trending_downside_leftside" data-aos="fade-left">
+        <div class="trending_downside_leftside_firstsect sushi_mainsstitle">
+          What’s Trending / トレンド
+        </div>
+        <h3 class="trending_downside_leftside_secondsect sushi__maintitle">
+          Japanese Drinks
+        </h3>
+        <div class="trending_downside_leftside_thirdsect sushi_subtitle">
+          Feel the taste of most delicious Japanese drinks here.
+        </div>
+        <div class="trending_downside_leftside_fourthsect"></div>
+      </div>
+      <div class="trending_downside_rightside">
+          <img src="./assets/arrow-vertical.svg" class="trending_downside_rightside_vertical" data-aos="fade-up"/>
+        <img src="./assets/sushi-4.png" class="trending_downside_rightside_image" data-aos="fade-right">
+          <img src="./assets/arrow-horizontal.svg" class="trending_downside_rightside_horizontal" data-aos="fade-right">
+      </div>
+    </div>
+  </section>
+
+  <section class="subscriber" id="subscriber">
+    <div class="subscriber_main sushi__maintitle" data-aos="flip-up">Get offers straight to your inbox</div>
+    <div class="subscriber_sub sushi_subtitle" data-aos="fade-up" data-aos-offset="200">Sign up for the Sushiman newsletter</div>
+    <div class="subscriber_inputarea" data-aos="fade-up" data-aos-offset="250">
+      <input type="text" class="subscriber_inputarea_text" placeholder="Enter Your Email Address">
+      <div class="subscriber_inputarea_get">Get Started</div>
+    </div>
+  </section>
+  <footer class="footer">
+    <a href="#"><h3 id="footerh3"><span class="footerh3first">Sushi</span><span class="footerh3second">Man</span></h3></a>
+    <ul class="header__nav header_nav_down" data-aos="fade-down"> 
+      <li class="header_li header_li_down ">
+          <a href="#trending" class="header_li_opt">MENU</a>
+        </li>
+        <li class="header_li header_li_down">
+          <a href="#FOOD" class="header_li_opt">FOOD</a>
+        </li>
+        <li class="header_li header_li_down">
+          <a href="#subscriber" class="header_li_opt">SERVICES</a>
+        </li>
+        <li class="header_li header_li_down">
+          <a href="#ABOUT_US" class="header_li_opt">ABOUT US</a>
+        </li>
+    </ul>
+    <ul class="header_down_logo">
+      <li class="header_down_logo_child" >
+        <img src="./assets/facebook.svg">
+      </li>
+      <li class="header_down_logo_child" >
+        <img src="./assets/instagram.svg">
+      </li>
+      <li class="header_down_logo_child" >
+        <img src="./assets/twitter.svg">
+      </li>
+    </ul>
+  </footer>
+  <script type="module" src="./js/script.js"></script>
+  <script type="module" src="./js/tablet_mobile.js" defer></script>
+  <script type="module" src="./js/slider.js" defer></script>
+  <!-- The defer is a Boolean value, used to indicate that script is executed after the document has been parsed -->
+</body>
+</html>

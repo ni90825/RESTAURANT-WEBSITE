@@ -1,0 +1,114 @@
+.subscriber{
+    min-width:100%;
+    background-color:var(--primary-color);
+    background-image:url(../../assets/subscribe_bg.png);
+    background-size:100%;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    padding:64px 0px 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap:18px;
+}
+.subscriber_main{
+    max-width:60%;
+    color:var(--color-white);
+    text-align: center;
+    font-size: 78px !important;
+    line-height: 110px !important;
+}
+.subscriber_sub{
+    color:rgba(255,255,255,0.8) !important;
+    font-weight:300 !important;
+}
+.subscriber_inputarea{
+    display:flex;
+    flex-direction:row;   
+    min-width:480px;
+    padding:14px 14px 14px 24px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    border-radius:50px;
+}
+.subscriber_inputarea input{
+    outline:0;
+    border:0;
+    flex:1;
+    background-color: var(--primary-color);
+    font-size:16px;
+    font-family:var(--plus-jakarta-sans);
+    font-weight:400;
+    color:var(--color-white);
+    opacity:0.5;
+}
+.subscriber_inputarea input::placeholder{
+    color:var(--color-white);
+    opacity:0.5;
+}
+.subscriber_inputarea_get{
+    flex:1;
+    font-size:16px;
+    font-family:var(--plus-jakarta-sans);  
+    color:var(--color-white);
+    background-color:var(--black-400);
+    padding:20px;
+    border-radius:50px;
+    max-width:140px;
+    text-align:center;
+    cursor: pointer;
+}
+.footer span{
+    text-transform:uppercase;
+
+}
+.footer ul li{
+    text-transform:uppercase;
+    list-style:none;
+}
+footer ul{
+    display:flex;
+    gap:50px;
+}
+.footer{
+    width:100%;
+    display:flex;
+    background-color:var(--color-white);
+    padding:20px 50px;
+    align-items:center;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+footer h3{
+    font-family:var(--playfair-display);
+    font-size:23.3px;
+    cursor: pointer; 
+}
+.footerh3first{
+    color:var(--primary-color);
+}
+.footerh3second{
+    color:var(--black-400)
+}
+.header_nav_down{
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.header_down_logo_child{
+    width:50px;
+    height:50px;
+    background-color:black;
+    border-radius:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+}
+.footer ul:last-child{
+    /* targets logo section (those ul which is last child) */
+    gap:32px;
+}
